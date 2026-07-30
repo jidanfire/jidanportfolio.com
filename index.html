@@ -473,11 +473,7 @@
 
         <div class="contact-card">
           <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.');">
-            <form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">jidanfire@gmail.com</label>
-  <input name="Email" id="email" type="email">
-  <button type="submit">Submit</button>
-</form>
+            
             <div class="form-group">
               <label for="c-name">Full Name</label>
               <input type="text" id="c-name" placeholder="Your Name" required>
@@ -491,6 +487,11 @@
               <textarea id="c-msg" rows="5" placeholder="Share your project goals..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Submit</button>
+
           </form>
 
           <div style="margin-top: 2.5rem; border-top: 1px solid var(--card-border); padding-top: 1.5rem; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
